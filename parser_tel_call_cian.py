@@ -8,7 +8,7 @@ URL = 'https://www.cian.ru/cat.php?deal_type=rent&engine_version=2&is_by_homeown
 tel_num = ''
 phone_numbers = []
 client_info = []
-driver = webdriver.Chrome('E:\Рома\chromedriver')
+driver = webdriver.Chrome('path/to/chromedriver')
 driver.get(URL)
 
 
